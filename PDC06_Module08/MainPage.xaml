@@ -6,7 +6,7 @@
     <StackLayout>
         <Button Text="Add Records" BackgroundColor="Tomato" Clicked="OnAdd"></Button>
         <Button Text="Refresh" BackgroundColor="MediumSeaGreen" Clicked="OnRefresh"></Button>
-        
+        <Button Text="Search"  BackgroundColor="Violet" Clicked="Search_Page_Clicked"/>
         <Entry x:Name="xUsername" Placeholder="Username"></Entry>
         <Entry x:Name="xPassword" Placeholder="Password"></Entry>
 

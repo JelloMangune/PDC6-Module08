@@ -55,5 +55,9 @@ namespace PDC06_Module08
             base.OnAppearing();
         }
 
+        private async void Search_Page_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SearchPage());
+        }
     }
 }
